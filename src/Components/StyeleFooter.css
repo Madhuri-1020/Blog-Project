@@ -1,0 +1,244 @@
+.image{
+    width: 90px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.text-muted{
+    border-width: 0px;
+    height: 70px;
+    padding: 20px;
+    
+}
+.text-container{
+    text-align: left!important;
+}
+.product-col{
+    padding-left: 40px;
+}
+.icons{
+    font-size: 30px;
+}
+/* .p-tag{
+    background-color: #ff9f1c;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+} */
+
+.form-body{
+    margin-left: 450px;
+    margin-right: 500px;
+}
+.input{
+    height: 55px;
+}
+.label-text{
+    color: #a580c7;
+}
+.btn-submit{
+    color: #a580c7;
+}
+.blog-content{
+    height: 220px;
+}
+.author{
+    background-color: orange;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.topic-text{
+    background-color: green;
+    /* width: 150px; */
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    /* margin-left: 150px; */
+    color: white;
+    
+}
+
+.form_container{
+    width: 25%;
+    height: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+    .form_container{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form_container{
+        width: 65%;
+    }
+}
+.htext{
+    color: #a580c7;
+}
+
+.contact_page{
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px #175ce626;;
+}
+.contact_input{
+    height: 50px;
+    border-width: 5px;
+}
+.contact_submit{
+    background: -webkit-linear-gradient(225deg,#8400ff,#e600ff);
+}
+/* .card-topic{
+    background-color: green;
+    border-radius: 20px;
+    
+} */
+/* .card_author{
+    background-color: #ff9f1c;
+    border-radius: 20px;
+} */
+
+
+
+
+
+
+
+.loader {
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+    transform: rotate(165deg);
+   }
+   
+   .loader:before, .loader:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.25em;
+    transform: translate(-50%, -50%);
+   }
+   
+   .loader:before {
+    animation: before8 2s infinite;
+   }
+   
+   .loader:after {
+    animation: after6 2s infinite;
+   }
+   
+   @keyframes before8 {
+    0% {
+     width: 0.5em;
+     box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+    }
+   
+    35% {
+     width: 2.5em;
+     box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+    }
+   
+    70% {
+     width: 0.5em;
+     box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+    }
+   
+    100% {
+     box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+    }
+   }
+   
+   @keyframes after6 {
+    0% {
+     height: 0.5em;
+     box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+    }
+   
+    35% {
+     height: 2.5em;
+     box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+    }
+   
+    70% {
+     height: 0.5em;
+     box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+    }
+   
+    100% {
+     box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+    }
+   }
+   
+   .loader {
+    position: absolute;
+    top: calc(50% - 1.25em);
+    left: calc(50% - 1.25em);
+   }
+   
+
+
+@media screen and (min-width:780px) and (max-width:1082px){
+    #IDContainer{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #8400ff;
+       }
+    
+}
+
+.read-button{
+    background-color: #3ddd75;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+
+}
+
+
+.single_title{
+    background-color: orange;
+    /* height: 60px; */
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.single_date{
+    background-color: #c7809c;
+    border-radius: 20px;
+    width: 20rem;
+    color: whitesmoke;
+
+    
+}
+
+.image_blog{
+    height: 200px;
+    width: 250px;
+}
+
+.image_snglblg{
+    height: 80vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.user_name{
+    background-color: blue;
+    color: white;
+}
+
+.copyrights{
+background-color: rgb(235, 229, 229);
+}
